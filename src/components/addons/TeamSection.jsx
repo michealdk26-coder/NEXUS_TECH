@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { Code2, Palette, Zap, CheckSquare } from "lucide-react";
 
 const team = [
-    { name: "Dev_Chukwuka", role: "Lead Developer / Full Stack Developer", icon: Code2, gradient: "from-blue-500 to-cyan-600", hasPhoto: true, photo: "/team/devchukwuka.jpg" },
-    { name: "Great_Grace", role: "UI/UX Designer", icon: Palette, gradient: "from-purple-500 to-pink-600", hasPhoto: true, photo: "/team/grace.jpg" },
-    { name: "DevCata001", role: "Full Stack Developer", icon: Zap, gradient: "from-orange-500 to-red-600", hasPhoto: true, photo: "/team/devcata001.jpg" },
-    { name: "Dimex", role: "Project Manager", icon: CheckSquare, gradient: "from-green-500 to-teal-600", hasPhoto: true, photo: "/team/dimex.jpg" }
+    { name: "Dev_Chukwuka", role: "Lead Developer / Full Stack Developer", icon: Code2, gradient: "from-blue-500 to-cyan-600", hasPhoto: false },
+    { name: "Great_Grace", role: "UI/UX Designer", icon: Palette, gradient: "from-purple-500 to-pink-600", hasPhoto: false },
+    { name: "DevCata001", role: "Full Stack Developer", icon: Zap, gradient: "from-orange-500 to-red-600", hasPhoto: false },
+    { name: "Dimex", role: "Project Manager", icon: CheckSquare, gradient: "from-green-500 to-teal-600", hasPhoto: false }
 ];
 
 export default function TeamSection() {
